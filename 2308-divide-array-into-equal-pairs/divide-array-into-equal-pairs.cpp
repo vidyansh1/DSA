@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool divideArray(vector<int>& nums) {
-       vector<int>count(1000,0);int pairs,temp=0;
+       vector<int>count(502,0);int pairs,temp=0;
        for(int i=0;i<nums.size();i++){
          count[nums[i]]++;
        } 
